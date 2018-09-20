@@ -7,4 +7,5 @@ applications:
   instances: 1
   services:
   - tracker-allocations-database
+  - tracker-service-registry
 
