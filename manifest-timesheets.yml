@@ -5,7 +5,5 @@ applications:
   - route: pal-jeffkent-timesheets.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://reg-jk.apps.evans.pal.pivotal.io
   services:
   - tracker-timesheets-database
